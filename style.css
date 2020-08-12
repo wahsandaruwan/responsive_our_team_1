@@ -92,6 +92,17 @@ body{
     text-align: center;
     text-transform: uppercase;
     font-size: 22px;
+    transition: all 0.5s ease-in;
+}
+
+.social i{
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.social i:hover{
+    color: #c0392b;
+    transform: translateY(-2px);
 }
 
 /* Bottom Div */
@@ -104,17 +115,19 @@ body{
 
 /* Responsive */
 @media(max-width:1200px){
+    /* Whole Doc */
     body{
         height: 120vh;
     }
 }
 
 @media(max-width:800px){
-
+    /* Whole Doc */
     body{
         height: 150vh;
     }
 
+    /* Description */
     .desc{
         width: 400px;
     }
@@ -122,6 +135,7 @@ body{
 }
 
 @media(max-width:600px){
+    /* Description */
     .desc{
         width: 300px;
         font-size: 14px;
@@ -133,22 +147,24 @@ body{
 }
 
 @media(max-width:520px){
-
+    /* Whole Doc */
     body{
         height: 180vh;
     }
 
+    /* Description */
     .desc{
         width: 200px;
     }
 }
 
 @media(max-width:400px){
-
+    /* Whole Doc */
     body{
         height: 180vh;
     }
 
+    /* Description */
     .desc{
         font-size: 12px;
         width: 160px;
